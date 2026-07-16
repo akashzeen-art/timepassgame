@@ -1,8 +1,4 @@
 function proxify(url) {
-  if (!url) return url;
-  if (url.startsWith('https://cdn.timepass.games')) return url.replace('https://cdn.timepass.games', '/cdn-timepass');
-  if (url.startsWith('https://cdn.simpleviralgames.com')) return url.replace('https://cdn.simpleviralgames.com', '/cdn-svg');
-  if (url.startsWith('https://media.simpleviralgames.com')) return url.replace('https://media.simpleviralgames.com', '/cdn-media');
   return url;
 }
 
